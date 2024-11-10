@@ -1,0 +1,321 @@
+/* Main application styling */
+.App {
+  text-align: center;
+}
+
+/* Logo styling for main app logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animation for rotating logo */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header styling */
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative; 
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; 
+  margin-right: 10px;
+}
+
+/* Centered navigation styling */
+.navigation-container {
+  background-color: #282c34;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+/* Cart Icon styling */
+.cart-icon {
+  position: absolute;
+  bottom: -40px; 
+  right: 15px; 
+}
+
+.cart-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 0.8em;
+}
+
+/* Home main section and review sections */
+.Home-Main-Section, .Review {
+  padding: 20px;
+  text-align: left;
+}
+
+/* Product styling */
+.product {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  text-align: left;
+  width: 200px;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product .name {
+  font-weight: bold;
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #5398d1;
+}
+
+/* Product list container */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Cart Page Styling */
+.cart-page {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+.cart-items-container {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+.cart-item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-name {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.cart-item-quantity,
+.cart-item-price,
+.cart-item-total {
+  margin: 3px 0;
+}
+
+.remove-button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.remove-button:hover {
+  background-color: #ff4c4c;
+}
+
+/* Cart Summary Section */
+.cart-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.cart-total {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.checkout-button {
+  background-color: #61dafb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #5398d1;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Form styling for Login and Signup forms */
+form {
+  margin: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Login/Signup toggle button styling */
+button {
+  background-color: #61dafb;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5398d1;
+}
+
+/* Centered container for Login and Signup forms */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 140px);
+  padding: 20px;
+}
+
+/* Auth form styling for Login and Signup */
+.auth-form {
+  width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Adjust form inputs inside auth-form */
+.auth-form input[type="text"],
+.auth-form input[type="password"],
+.auth-form input[type="email"] {
+  width: 100%;
+}
+
+/* Heading styling inside auth-form */
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Paragraph and toggle link styling */
+.auth-form p {
+  text-align: center;
+}
+
+.auth-form button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Animation keyframes */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
