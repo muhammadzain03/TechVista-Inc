@@ -50,10 +50,8 @@ Follow these steps to set up the project locally. This guide assumes you are not
    - Open a command prompt or terminal.
    - Run:
      ```bash
-     git clone https://github.com/yourusername/techvista-ecommerce.git
+     git clone https://github.com/muhammadzain03/TechVista-Inc.git
      ```
-   - Replace `yourusername` with your actual GitHub username.
-
    **OR** download the ZIP file of this project from GitHub and unzip it on your computer.
 
 2. **Install Frontend Dependencies**:
