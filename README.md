@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![TechVista Logo](public/images/logo.png)
-
 **A Modern, Beautiful E-commerce Web Application**
 
 ![GitHub stars](https://img.shields.io/github/stars/muhammadzain03/TechVista-Inc?style=for-the-badge)
