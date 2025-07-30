@@ -1,0 +1,6 @@
+@echo off
+echo Starting TechVista Frontend Server...
+echo.
+echo Starting React development server...
+npm start
+pause 
